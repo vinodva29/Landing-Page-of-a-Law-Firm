@@ -1,0 +1,130 @@
+.mainContainerForThis {
+    width: 1137px;
+    height: 626px;
+    margin-left: 154px;
+    margin-right: 149px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainTextForThis {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%;
+    width: 374px;
+    height: 154px;
+    margin: 0px;
+  }
+  
+  .navigation {
+    width: 200px;
+    display: flex;
+    gap: 18.78px;
+    align-items: center;
+  }
+  
+  .leftArrowCircle {
+    width: 90.612px;
+    height: 90.612px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .leftArrow {
+    height: 16.033px;
+    width: 25.653px;
+  }
+  
+  .rightArrowCircle {
+    width: 90.612px;
+    height: 90.612px;
+    background-color: #e3b748;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rightArrow {
+    height: 18px;
+    width: 28px;
+  }
+  
+  .allCards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .MainContainer {
+    width: 359px;
+    height: 377px;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    background-color: #1d1d1d;
+  }
+  
+  .smallBox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 337px;
+    gap: 18px;
+  }
+  
+  .giftImage {
+    width: 105px;
+    height: 102px;
+  }
+  
+  .mainText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 148px;
+    height: 24px;
+    margin: 0px;
+  }
+  
+  .subText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 80px;
+    height: 24px;
+    margin: 0px;
+  }
+  
+  .descriptionText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    width: 293px;
+    height: 92px;
+  }
+  
+  .selectedCard {
+    background-color: #2e2e2e;
+  }

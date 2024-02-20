@@ -1,0 +1,49 @@
+.inputContainer {
+    width: 438px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+  }
+  
+  .MessageIconStyle {
+    display: flex;
+    width: 22px;
+    height: 22px;
+    padding: 2.75px 1.833px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  
+  .search {
+    width: 220px;
+    height: 64px;
+    background-color: var(--color-black);
+    border: 0px;
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    padding-left: 8px;
+  }
+  
+  .searchButton {
+    width: 137px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    background: #e3b748;
+  }
+  .buttonText {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%;
+  }

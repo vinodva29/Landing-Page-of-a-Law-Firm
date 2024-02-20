@@ -1,0 +1,45 @@
+.fullNavBar {
+    height: 140px;
+    width: 1135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 153px;
+    margin-right: 152px;
+    margin-top: 50px;
+    background-color: black;
+  }
+  
+  .middleTexts {
+    display: flex;
+    gap: 41px;
+    width: 500px;
+    justify-content: space-around;
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%;
+  }
+  
+  .lastButton {
+    width: 172px;
+    height: 47px;
+    border: 2px solid #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonText {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }

@@ -1,0 +1,10 @@
+:root {
+  --color-black: rgb(19, 18, 18);
+  --color-white: #ffffff;
+}
+html,
+body {
+  width: 1440px;
+  height: 6828px;
+  background-color: var(--color-black);
+}

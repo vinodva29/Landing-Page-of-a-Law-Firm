@@ -1,0 +1,52 @@
+.mainContainer {
+    width: 1440px;
+    height: 367px;
+    background-color: black;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .topBar {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .topTexts {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    width: 548px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+  }
+  
+  .buttomText {
+    width: 425px;
+    color: #fff;
+    font-family: Helvetica Now Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

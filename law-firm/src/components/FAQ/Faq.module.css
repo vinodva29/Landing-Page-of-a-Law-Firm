@@ -1,0 +1,118 @@
+.mainContainer {
+    width: 1140px;
+    height: 629px;
+    margin-left: 172px;
+    margin-right: 128px;
+    margin-top: 160px;
+  }
+  .mainText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 138.023%;
+    width: 106px;
+    height: 75px;
+    margin: 0px;
+  }
+  .secondMainContainer {
+    height: 550px;
+    width: 1140px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .leftTextBox {
+    width: 557px;
+    height: 58px;
+  }
+  
+  .leftText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    opacity: 0.3;
+    width: 350px;
+    margin: 0px;
+  }
+  
+  .rightMainContainer {
+    height: 550px;
+    width: 575px;
+  }
+  
+  .topText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 399px;
+    height: 24px;
+    margin: 0px;
+  }
+  
+  .descriptionBox {
+    width: 557px;
+    height: 145px;
+    margin-top: 30px;
+  }
+  
+  .descriptionText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    opacity: 0.3;
+    width: 400px;
+    margin: 0px;
+  }
+  
+  .line {
+    width: 539px;
+    height: 2px;
+    opacity: 0.05;
+    background: #fff;
+    margin-top: 35px;
+  }
+  
+  .accordionBox {
+    margin-top: 25px;
+    background-color: var(--color-black) !important;
+  }
+  .accordionText {
+    color: var(--Pure-White, #fff);
+    font-family: Inter !important;
+    font-size: 24px !important;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+    height: 24px !important;
+    width: 500px;
+  }
+  
+  .smallYellowCircle {
+    width: 28px;
+    height: 28px;
+    background-color: #e3b748;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plusIcon {
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }

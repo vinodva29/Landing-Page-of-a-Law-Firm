@@ -1,0 +1,21 @@
+.mainContainer {
+    width: 1139px;
+    height: 551px;
+    margin-left: 146px;
+    margin-left: 155px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .mainText {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 143.023%;
+    margin-left: 370px;
+  }

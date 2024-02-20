@@ -1,0 +1,89 @@
+.allCards {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .MainContainer {
+    width: 359px;
+    height: 377px;
+    border-radius: 14px;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    background-color: #1d1d1d;
+  }
+  .smallBox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 337px;
+    gap: 15px;
+  }
+  
+  .topCircle {
+    width: 101px;
+    height: 101px;
+    background-color: var(--pure-white, #fff);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .giftImage {
+    display: flex;
+    width: 62px;
+    height: 62px;
+    padding: 7.75px 5.167px 5.258px 5.167px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  
+  .mainText {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 215px;
+    height: 24px;
+    margin: 0px;
+  }
+  
+  .descriptionText {
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    opacity: 0.3;
+    width: 293px;
+    height: 69px;
+  }
+  
+  .buttonStyle {
+    width: 121px;
+    height: 43px;
+    border-radius: 23.5px;
+    background: #e3b748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonText {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 162.523%;
+    width: 73px;
+    height: 23px;
+  }
+  
+  .selectedCard {
+    background-color: #2e2e2e;
+  }

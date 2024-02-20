@@ -1,0 +1,83 @@
+.mainContainer {
+    width: 1245px;
+    height: 356px;
+    margin-left: 97px;
+    margin-right: 98px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(71, 71, 71, 0.5);
+  }
+  
+  .mainText {
+    color: #fff;
+    text-align: center;
+    font-family: Helvetica Now Display;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137%;
+    width: 659px;
+    height: 75px;
+    margin-top: 0px;
+  }
+  
+  .inputBoxes {
+    width: 686px;
+    height: 53px;
+    display: flex;
+    gap: 9px;
+  }
+  
+  .firstBox {
+    width: 276px;
+    height: 53px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #e4e4e4;
+  }
+  
+  .secondBox {
+    width: 276px;
+    height: 53px;
+    background-color: #e4e4e4;
+  }
+  
+  .sendButton {
+    width: 116px;
+    height: 60px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #e3b748;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonText {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica Now Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137%;
+    width: 77px;
+    height: 21px;
+  }
+  
+  .firstBox::placeholder,
+  .secondBox::placeholder {
+    color: #818181;
+    font-family: Helvetica Now Display;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 137%;
+    width: 201px;
+    height: 24px;
+    padding-left: 23px;
+    padding-right: 52px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+  }

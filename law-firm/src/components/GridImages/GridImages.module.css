@@ -1,0 +1,128 @@
+.imageGrid {
+    height: 1086px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .FirstBox {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .secondBox {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .thirdBox {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .gridItem {
+    position: relative;
+  }
+  
+  .imageText1 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 271px;
+    bottom: 47px;
+    left: 286px;
+    right: 286px;
+    width: 180px;
+    height: 24px;
+  }
+  
+  .imageText2 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 268px;
+    bottom: 50px;
+    left: 81px;
+    right: 81px;
+    width: 196px;
+    height: 24px;
+  }
+  
+  .imageText3 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 264px;
+    bottom: 30px;
+    left: 70px;
+    right: 71px;
+    width: 250px;
+    height: 48px;
+  }
+  
+  .imageText4 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 271px;
+    bottom: 47px;
+    left: 286px;
+    right: 286px;
+    width: 180px;
+    height: 24px;
+  }
+  
+  .imageText5 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 257px;
+    bottom: 16px;
+    left: 216px;
+    right: 216px;
+    width: 262px;
+    height: 69px;
+  }
+  
+  .imageText6 {
+    color: #fffbf2;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    position: absolute;
+    top: 258px;
+    bottom: 60px;
+    left: 98px;
+    right: 97px;
+    width: 190px;
+    height: 24px;
+  }
+  
+  .gridItem:hover .gridImage {
+    filter: brightness(1.8); /* Increase brightness on hover */
+  }

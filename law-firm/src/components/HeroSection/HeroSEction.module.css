@@ -1,0 +1,70 @@
+.heroContainer {
+    height: 910px;
+    width: 1135px;
+    margin-left: 153px;
+    margin-right: 152px;
+    margin-top: -18px;
+    background-color: black;
+    display: flex;
+  }
+  
+  .heroContent {
+    margin-top: 160px;
+    width: 1135px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .heroTexts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .mainTextOne {
+    width: 571px;
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 147.523%;
+    margin: 0px;
+  }
+  
+  .mainTextTwo {
+    width: 571px;
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 147.523%;
+    margin: 0px;
+  }
+  
+  .descriptionText {
+    width: 560px;
+    height: 99px;
+    color: var(--pure-white, #fff);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.523%;
+    opacity: 0.3;
+  }
+  
+  .mainBox {
+    width: 443.511px;
+    height: 568.908px;
+  }
+  
+  .pictureBackground {
+    background-color: #e3b748;
+    width: 443.511px;
+    height: 509.069px;
+    border-radius: 43px;
+    display: flex;
+    align-items: flex-end;
+  }
