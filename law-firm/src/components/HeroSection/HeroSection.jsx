@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../HeroSection/HeroSection.module.css";
+import styles from "./HeroSection.module.css";
 import ManImage from "../../assets/Person.png";
 import SearchBar from "../SearchBar/SearchBar";
 
